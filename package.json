@@ -1,0 +1,14 @@
+{
+  "name": "pricecomponent",
+  "version": "1.0.0",
+  "description": "Practice project of a single price component",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Chris Allen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

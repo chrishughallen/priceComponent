@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem; }
+  .wrapper .priceBox {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 8px 5px rgba(0, 0, 0, 0.29); }
+    .wrapper .priceBox__header {
+      background: white;
+      padding: 2rem; }
+      .wrapper .priceBox__header__title {
+        color: #4834d4;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem; }
+      .wrapper .priceBox__header__subTitle {
+        color: #2ab3b1;
+        margin-bottom: 0.5rem;
+        font-weight: bold; }
+      .wrapper .priceBox__header__details {
+        color: rgba(0, 0, 0, 0.5); }
+    .wrapper .priceBox__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      .wrapper .priceBox__content__title {
+        font-weight: bold;
+        margin-bottom: 1rem; }
+      .wrapper .priceBox__content__left {
+        background: #4bbebd;
+        padding: 2rem;
+        color: rgba(255, 255, 255, 0.8); }
+      .wrapper .priceBox__content__right {
+        background: #2ab3b1;
+        padding: 2rem;
+        color: rgba(255, 255, 255, 0.8); }
+        .wrapper .priceBox__content__right__details ul {
+          list-style: none; }
+          .wrapper .priceBox__content__right__details ul li {
+            padding: 0.1rem 0;
+            color: rgba(255, 255, 255, 0.6); }
+      .wrapper .priceBox__content__price {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem; }
+        .wrapper .priceBox__content__price__amount {
+          font-size: 3rem;
+          font-weight: bold;
+          color: white; }
+        .wrapper .priceBox__content__price__frequency {
+          color: rgba(255, 255, 255, 0.6);
+          margin-left: 0.5rem; }
+    .wrapper .priceBox__cta {
+      background: #4834d4;
+      color: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      font-weight: bold; }
+      .wrapper .priceBox__cta:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.6);
+        transition: 0.2s; }
